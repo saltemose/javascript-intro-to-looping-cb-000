@@ -10,4 +10,5 @@ function doWhileLoop(array){
     array.pop();
     console.log("I run once regardless.");
   } while (array.length > 0);
+  return array;
 };
